@@ -100,7 +100,7 @@ class loader:
     def draw(self):
         glBegin(GL_TRIANGLES)
         for tri in self.get_triangles():
-            glColor3f(0.5,0.5,0.5)
+            glColor3f(1,0.83,0)
             glNormal3f(tri.normal.x,tri.normal.y,tri.normal.z)
             #glColor3fv(1.0,0,0,0)
             glVertex3f(tri.points[0].x,tri.points[0].y,tri.points[0].z)
@@ -113,7 +113,7 @@ class loader:
     def draw2(self):
        glBegin(GL_LINES)
        for tri in self.get_triangles():
-            glColor3f(1,1,1)
+            glColor3f(0,0,0)
             glNormal3f(tri.normal.x,tri.normal.y,tri.normal.z)
             #glColor3fv(1.0,0,0,0)
             glVertex3f(tri.points[0].x,tri.points[0].y,tri.points[0].z)
@@ -229,7 +229,7 @@ class drawR3d(QOpenGLWidget):
         
     def paintGL(self):
         self.model1=loader()
-        self.model1.load_stl(os.path.abspath('')+'/trunk6.stl')
+        self.model1.load_stl(os.path.abspath('')+'/trunk20.stl')
         
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         glMatrixMode(GL_MODELVIEW)
@@ -244,10 +244,10 @@ class drawR3d(QOpenGLWidget):
         
 
         
-'''if __name__ == "__main__" :
+if __name__ == "__main__" :
     app = QtWidgets.QApplication(sys.argv)
     app.setStyle(QStyleFactory.create('Fusion'))
-    myWindow = WindowClass()
+    myWindow = drawR3d()
     myWindow.show()
-    app.exec_() '''
+    app.exec_() 
     
