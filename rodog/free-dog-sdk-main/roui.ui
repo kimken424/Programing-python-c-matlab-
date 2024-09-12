@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn_q">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turn_L</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_w">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fwrd</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_a">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Left</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_d">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>150</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Right</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_s">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>240</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_e">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turn_R</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_c">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>240</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BH_down</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_z">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BH_up</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_x">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mode6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>350</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="command">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_cancel">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>390</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Xvalue">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>460</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Yvalue">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>490</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Zvalue">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>550</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>460</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Q1값:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>490</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Q2값:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>550</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Yaw값:</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_gl">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>50</y>
+     <width>441</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Xvalue_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>520</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>520</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Q3값:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

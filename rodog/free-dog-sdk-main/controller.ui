@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn_q">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turn_L</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_w">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fwrd</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_a">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Left</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_d">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>150</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Right</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_s">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>240</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_e">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turn_R</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_c">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>240</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BH_down</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_z">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BH_up</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_x">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mode6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>360</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="command">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
